@@ -2,7 +2,9 @@
   "name": "jason-claude-code",
   "version": "1.0.0",
   "description": "Jason's personal Claude Code setup with 14 productivity commands and 11 specialized AI agents for modern web development",
-  "author": "Jason",
+  "author": {
+    "name": "Jason"
+  },
   "license": "MIT",
   "commands": [
     {
@@ -192,15 +194,5 @@
       ],
       "description": "Supabase database operations and management"
     }
-  },
-  "tags": [
-    "productivity",
-    "nextjs",
-    "supabase",
-    "typescript",
-    "react",
-    "api",
-    "development",
-    "mcp"
-  ]
+  }
 }

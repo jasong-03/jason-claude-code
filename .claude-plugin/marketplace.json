@@ -1,28 +1,13 @@
 {
   "name": "jason-claude-code",
   "owner": {
-    "name": "Jason",
-    "contact": "github.com/jason-io"
+    "name": "Jason"
   },
-  "description": "Jason's curated Claude Code setup for productive development",
   "plugins": [
     {
-      "name": "jasons-claude-code",
-      "source": "./",
-      "description": "Personal Claude Code configuration with 14 productivity commands and 11 specialized AI agents for modern web development",
-      "version": "1.0.0",
-      "author": {
-        "name": "Jason",
-        "email": "[email protected]"
-      },
-      "tags": [
-        "productivity",
-        "nextjs",
-        "supabase",
-        "typescript",
-        "react",
-        "development"
-      ]
+      "name": "personal-assistant",
+      "source": "./personal-assistant",
+      "description": "A plugin to turn Claude Code into your personal assistant"
     }
   ]
 }

@@ -47,7 +47,7 @@ $ARGUMENTS
 ### 2. **Modern Patterns to Apply**
 
 **JavaScript/TypeScript**
-```typescript
+~~~typescript
 // Use optional chaining
 const value = obj?.prop?.nested
 
@@ -58,14 +58,14 @@ const result = value ?? defaultValue
 const { name, email } = user
 
 // Use template literals
-const message = `Hello, ${name}!`
+const message = 'Hello, ' + name + '!'
 
 // Use array methods
 const filtered = arr.filter(x => x.active)
-```
+~~~
 
 **React**
-```typescript
+~~~typescript
 // Extract custom hooks
 const useUserData = () => {
   // logic here
@@ -81,12 +81,12 @@ interface Props {
 <Provider value={data}>
   <Component />
 </Provider>
-```
+~~~
 
 ### 3. **Refactoring Techniques**
 
 **Extract Function**
-```typescript
+~~~typescript
 // Before
 const process = () => {
   // 50 lines of code
@@ -102,10 +102,10 @@ const process = () => {
   const data = transform()
   save(data)
 }
-```
+~~~
 
 **Replace Conditional with Polymorphism**
-```typescript
+~~~typescript
 // Before
 if (type === 'A') return processA()
 if (type === 'B') return processB()
@@ -116,10 +116,10 @@ const processors = {
   B: processB
 }
 return processors[type]()
-```
+~~~
 
 **Introduce Parameter Object**
-```typescript
+~~~typescript
 // Before
 function create(name, email, age, address)
 
@@ -131,7 +131,7 @@ interface UserData {
   address: string
 }
 function create(userData: UserData)
-```
+~~~
 
 ### 4. **Common Cleanup Tasks**
 
@@ -142,7 +142,7 @@ function create(userData: UserData)
 - Unused variables
 
 **Improve Error Handling**
-```typescript
+~~~typescript
 // Before
 try { doSomething() } catch (e) { console.log(e) }
 
@@ -157,7 +157,7 @@ try {
     throw error
   }
 }
-```
+~~~
 
 **Consistent Formatting**
 - Proper indentation
@@ -174,7 +174,7 @@ try {
 ### 5. **Next.js/React Specific**
 
 **Server vs Client Components**
-```typescript
+~~~typescript
 // Move state to client component
 'use client'
 function Interactive() {
@@ -185,16 +185,16 @@ function Interactive() {
 async function Page() {
   const data = await fetchData()
 }
-```
+~~~
 
 **Proper Data Fetching**
-```typescript
+~~~typescript
 // Use SWR/React Query for client
 const { data } = useSWR('/api/user')
 
 // Use direct fetch in server components
 const data = await fetch('/api/user').then(r => r.json())
-```
+~~~
 
 ## Output Format
 

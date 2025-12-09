@@ -5,11 +5,6 @@
   },
   "plugins": [
     {
-      "name": "jasons-claude-code",
-      "source": "./personal-assistant",
-      "description": "A plugin to turn Claude Code into your personal assistant"
-    },
-    {
       "name": "wecook",
       "source": "./wecook",
       "description": "A plugin for WeCook"

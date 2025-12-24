@@ -3,6 +3,9 @@ description: ⚡⚡⚡ Start coding & testing an existing plan
 argument-hint: [plan]
 ---
 
+> ⚠️ **CRITICAL WARNING - ZERO TOLERANCE POLICY:**
+> NEVER include AI attribution, references, or signatures in code, comments, commits, or any output. No OpenAI, Claude, Anthropic, AI-generated, Co-authored-by AI, or similar. The user owns ALL work.
+
 **MUST READ** `CLAUDE.md` then **THINK HARDER** to start working on the following plan follow the Orchestration Protocol, Core Responsibilities, Subagents Team and Development Rules:
 <plan>$ARGUMENTS</plan>
 

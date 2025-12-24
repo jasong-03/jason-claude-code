@@ -13,3 +13,4 @@ FROM_BRANCH: $2 (defaults to current branch)
 
 ## Notes
 - If `gh` command is not available, instruct the user to install and authorize GitHub CLI first.
+- **CRITICAL: NEVER include AI attribution in PR title/description (OpenAI, Claude, Anthropic, AI-generated, Co-authored-by AI, etc.)**
